@@ -64,4 +64,3 @@ Here are some potential improvements for the Task Manager API:
 2. Add pagination support for listing tasks.  
 3. Integrate a persistent database for storing tasks.  
 4. Implement filtering and sorting options for task retrieval.  
-5. Feel free to contribute to the project by making improvements or suggesting new features.  
