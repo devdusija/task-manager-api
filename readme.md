@@ -30,7 +30,8 @@ Response: JSON array containing task objects.
 Endpoint: POST /tasks
 Description: Creates a new task.  
 Request body: JSON object containing task details (title, description, due_date).  
-Response: JSON object containing the created task.  
+Response: JSON object containing the created task.
+![Creating a new task](./Post.JPG)
 ### Retrieve a single task  
 Endpoint: GET /tasks/{task_id}  
 Description: Retrieves a specific task by its ID.  
