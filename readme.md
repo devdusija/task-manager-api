@@ -26,6 +26,8 @@ The application will be accessible at http://localhost:5000.
 Endpoint: GET /tasks
 Description: Retrieves a list of all tasks.  
 Response: JSON array containing task objects.  
+![Creating a new task](./Retrieve.JPG) 
+
 ### Create a new task  
 Endpoint: POST /tasks
 Description: Creates a new task.  
@@ -36,15 +38,20 @@ Response: JSON object containing the created task.
 Endpoint: GET /tasks/{task_id}  
 Description: Retrieves a specific task by its ID.  
 Response: JSON object representing the task.  
+![Creating a new task](./Retrieve_one.JPG) 
+
 ### Update an existing task
 Endpoint: PUT /tasks/{task_id}  
 Description: Updates an existing task.  
 Request body: JSON object containing updated task details (title, description, due_date, status).  
-Response: JSON object representing the updated task.  
+Response: JSON object representing the updated task.
+![Creating a new task](./Update.JPG) 
 ## Delete a task
 Endpoint: DELETE /tasks/{task_id}  
 Description: Deletes a specific task by its ID.  
 Response: JSON object confirming the deletion.  
+![Creating a new task](./Delete.JPG) 
+
 
 # Task Object Structure
 A task object has the following properties:
