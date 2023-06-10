@@ -7,7 +7,7 @@ The Task Manager API is a simple RESTful API for managing tasks. It allows you t
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/devdusija/task-manager-api.git
 ```
 2. Install Flask
 ```
